@@ -6,7 +6,7 @@
 </head>  
 <h3>Railway Reservation Form</h3>  
 <body>  
-    <form:form action="submitForm" modelAttribute="reservation">  
+    <form:form action="submitForm" >  
         ID: <form:input path="identification" />         
         <br><br>  
         Name: <form:input path="Name" />  
@@ -17,4 +17,3 @@
     </form:form>  
 </body>  
 </html>  
-//index page in jsp
