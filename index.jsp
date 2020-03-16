@@ -2,10 +2,8 @@
 <!DOCTYPE html>  
 <html>  
 <head>  
-    <title>Reservation Form</title>  
 </head>  
-<h3>Railway Reservation Form</h3>  
-<body>  
+    <body>  
     <form:form action="indexpage/submitForm" >  
         ID: <form:input path="identification" />         
         <br><br>  
