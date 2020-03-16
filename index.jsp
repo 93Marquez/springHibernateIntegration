@@ -6,7 +6,7 @@
 </head>  
 <h3>Railway Reservation Form</h3>  
 <body>  
-    <form:form action="submitForm" >  
+    <form:form action="indexpage/submitForm" >  
         ID: <form:input path="identification" />         
         <br><br>  
         Name: <form:input path="Name" />  
