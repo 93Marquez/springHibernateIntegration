@@ -3,8 +3,11 @@ package spring.mvc.java;
 public class indexPojo {
 
 	private String identification;
-	private String Name;
-	private String Sal;
+	private String name;
+	private String sal;
+	
+	indexPojo(){}
+	
 	public String getIdentification() {
 		return identification;
 	}
@@ -12,16 +15,16 @@ public class indexPojo {
 		this.identification = identification;
 	}
 	public String getName() {
-		return Name;
+		return name;
 	}
 	public void setName(String name) {
-		Name = name;
+		this.name = name;
 	}
 	public String getSal() {
-		return Sal;
+		return sal;
 	}
 	public void setSal(String sal) {
-		Sal = sal;
+		this.sal = sal;
 	}
 	
 
