@@ -10,8 +10,8 @@
 </head>
 <body>
 <p>Your Details saved successfully. Please, re-check the details.</p>  
-${ipojo.identification}
-${ipojo.name} 
-${ipojo.sal}  
+ID:${ipojo.identification}<br>
+Name:${ipojo.name} <br>
+Salary:${ipojo.sal}  
  </body>
 </html>
