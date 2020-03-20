@@ -2,6 +2,7 @@ package spring.mvc.java;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @RequestMapping("/indexpage") 
@@ -16,10 +17,18 @@ public class firstController {
 	      
 	    //provide indexPojo object to the model   
 	    model.addAttribute("ipojo", ip1);  
-	    return "yettobecoded";  
+	    return "UpdateRecord";  
 	}  
 
+	@RequestMapping("/RecordUpdated")  
+	public String ReUPD(@ModelAttribute("ipojo")indexPojo ip1)  
+	{  
+		// @ModelAttribute binds form data to the object 	 
+		 
+		    return "Confirmation";  
+		}  
+	    
+	}  
 	
 	
 	
-}
